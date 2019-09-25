@@ -1,0 +1,22 @@
+{
+  "name": "stylexploration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rthenage65/stylexploration.git"
+  },
+  "author": "Richard Henage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rthenage65/stylexploration/issues"
+  },
+  "homepage": "https://github.com/rthenage65/stylexploration#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
