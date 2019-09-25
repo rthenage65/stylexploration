@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Open+Sans&display=swap');
+
+$color-text: #0B3954;
+$color-background: #BCF4F5;
+$color-heading: #254D32;
+$color-link: $color-text;
+$color-danger: #FF6663;
+
+$font-text: 'Open Sans', sans-serif;
+$font-heading: 'Big Shoulders Text', cursive;
+
+$size-heading: 50px;
+$size-text: 16px;
+
+$padding-container: 8px;
+
+$width-sm-container: 100%;
+$width-sm-half: 100%;
+$width-sm-third: 100%;
+
+$width-md-container: 66%;
+$width-md-half: 50%;
+$width-md-third: 33%;
+
+$grid-breakpoints: ("xs": 350, "sm": 500, "md": 750, "lg": 1000, "xl": 1200);
+
+// TO DO: add margin/padding/container variables

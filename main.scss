@@ -1,0 +1,58 @@
+@import "variables";
+
+body {
+    background-color: $color-background;
+    display: flex;
+    flex-direction: column;
+}
+
+.container.centered {
+    align-self: center;
+}
+
+.container.left {
+    align-self: left;
+}
+
+.container.right {
+    align-self: right;
+}
+
+.text.centered, .heading.centered {
+    text-align: center;
+}
+
+.text.left, .heading.left {
+    text-align: left;
+}
+
+.text.right, .heading.right {
+    text-align: right;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.heading {
+    font-size: $size-heading;
+    font-family: $font-heading;
+    color: $color-heading;
+}
+
+.text {
+    font-size: $size-text;
+    font-family: $font-text;
+    color: $color-text;
+}
+
+.container {
+    padding: $padding-container;
+    width: $width-sm-container;
+}
+
+@media only screen and (min-width: 750px) {
+    .container {
+        width: $width-md-container;
+    }
+}
